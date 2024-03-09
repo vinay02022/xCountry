@@ -1,0 +1,68 @@
+/* .App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .countryCard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .flagChild {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 15px;
+    width: 150px;
+  }
+  
+  .searchParent {
+    background-color: grey;
+  }
+  
+  .search {
+    width: 50vw;
+    height: 35px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 2px solid white;
+  }
+  
+  .flagImg {
+    margin-top: 8px;
+    width: 100px;
+    height: 60px;
+  }
+   */
+   .App {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .inp {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5%;
+  }
+  
+  .inp input {
+    font-size: larger;
+    font-weight: bolder;
+    border: 5px solid;
+  }
+  
+  .countryCard {
+    padding: 2%;
+    margin: 2%;
+    border: 3px solid;
+  }
+  
+  img {
+    width: 15vw;
+    height: 20vh;
+  }
